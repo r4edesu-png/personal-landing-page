@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Shaffa Tsurraya Sugiharto</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <style>
+        body {
+            background-color: #5588A3;
+            font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        }
+        .card-bg {
+            background-color: #E3E3E3;
+            color: #000000;
+        }
+        .text-light {
+            color: #E3E3E3;
+        }
+    </style>
+</head>
+<body class="min-h-screen pb-10">
+
+    <nav class="p-6 flex justify-between items-center max-w-6xl mx-auto text-light">
+        <h1 class="text-2xl font-bold tracking-wider">SHAFFA TS.</h1>
+        <div class="flex gap-4 text-sm md:text-base">
+            <a href="#about" class="hover:text-white transition">About</a>
+            <a href="#education" class="hover:text-white transition">Education</a>
+            <a href="#favorites" class="hover:text-white transition">Favorites</a>
+        </div>
+    </nav>
+
+    <header id="about" class="flex flex-col items-center justify-center text-center py-16 px-4">
+        <div class="mb-6">
+            <div class="w-40 h-40 md:w-52 md:h-52 rounded-full border-4 border-[#E3E3E3] overflow-hidden shadow-xl bg-[#E3E3E3] mx-auto">
+                <img 
+                    src="https://i.ibb.co.com/v6ZDm7JZ/image.png" 
+                    alt="Profile Shaffa" 
+                    class="w-full h-full object-cover" 
+                />
+            </div>
+        </div>
+
+        <h1 class="text-4xl md:text-6xl font-extrabold text-light mb-2 tracking-tight">
+            Shaffa Tsurraya Sugiharto
+        </h1>
+        <p class="text-xl md:text-2xl text-light opacity-90 font-light mb-8">
+            Student • Dreamer • Achiever
+        </p>
+
+        <div class="flex flex-wrap justify-center gap-6 text-light">
+            <div class="flex items-center gap-2 bg-white bg-opacity-10 px-4 py-2 rounded-full backdrop-blur-sm">
+                <i data-lucide="map-pin" width="18"></i>
+                <span>Desa Dukuh, Bendo, Magetan</span>
+            </div>
+            <div class="flex items-center gap-2 bg-white bg-opacity-10 px-4 py-2 rounded-full backdrop-blur-sm">
+                <i data-lucide="calendar" width="18"></i>
+                <span>Magetan, 22 Januari 2009</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-4 space-y-16">
+
+        <div id="education" class="grid md:grid-cols-2 gap-8">
+            
+            <div class="card-bg rounded-3xl p-8 shadow-lg">
+                <div class="flex items-center gap-3 mb-6 border-b-2 border-black pb-4">
+                    <i data-lucide="graduation-cap" width="32"></i>
+                    <h2 class="text-2xl font-bold">Riwayat Pendidikan</h2>
+                </div>
+                <ul class="space-y-6 relative border-l-2 border-gray-400 ml-3 pl-8">
+                    <li class="relative">
+                        <span class="absolute -left-[39px] top-1 w-5 h-5 bg-[#5588A3] rounded-full border-4 border-[#E3E3E3]"></span>
+                        <p class="font-bold text-lg">TK</p>
+                        <p class="text-gray-700">TK Al Maftuh</p>
+                    </li>
+                    <li class="relative">
+                        <span class="absolute -left-[39px] top-1 w-5 h-5 bg-[#5588A3] rounded-full border-4 border-[#E3E3E3]"></span>
+                        <p class="font-bold text-lg">SD</p>
+                        <p class="text-gray-700">SD Muhammadiyah 1 Magetan</p>
+                    </li>
+                    <li class="relative">
+                        <span class="absolute -left-[39px] top-1 w-5 h-5 bg-[#5588A3] rounded-full border-4 border-[#E3E3E3]"></span>
+                        <p class="font-bold text-lg">SMP</p>
+                        <p class="text-gray-700">SMPN 1 Magetan</p>
+                    </li>
+                    <li class="relative">
+                        <span class="absolute -left-[39px] top-1 w-5 h-5 bg-[#5588A3] rounded-full border-4 border-[#E3E3E3]"></span>
+                        <p class="font-bold text-lg">SMA</p>
+                        <p class="text-gray-700">SMAN 1 Magetan</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="space-y-8">
+                <div class="card-bg rounded-3xl p-8 shadow-lg">
+                    <div class="flex items-center gap-3 mb-6 border-b-2 border-black pb-4">
+                        <i data-lucide="star" width="32"></i>
+                        <h2 class="text-2xl font-bold">Hobi</h2>
+                    </div>
+                    <div class="grid grid-cols-1 gap-4">
+                        <div class="flex items-center gap-4 bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition">
+                            <div class="text-[#5588A3]"><i data-lucide="dumbbell" width="24"></i></div>
+                            <span class="font-semibold text-lg">Olahraga</span>
+                        </div>
+                        <div class="flex items-center gap-4 bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition">
+                            <div class="text-[#5588A3]"><i data-lucide="music" width="24"></i></div>
+                            <span class="font-semibold text-lg">Mendengarkan Musik</span>
+                        </div>
+                        <div class="flex items-center gap-4 bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition">
+                            <div class="text-[#5588A3]"><i data-lucide="book-open" width="24"></i></div>
+                            <span class="font-semibold text-lg">Membaca</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-bg rounded-3xl p-8 shadow-lg">
+                    <div class="flex items-center gap-3 mb-6 border-b-2 border-black pb-4">
+                        <i data-lucide="globe" width="32"></i>
+                        <h2 class="text-2xl font-bold">Bahasa</h2>
+                    </div>
+                    <div class="space-y-4">
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="font-medium">Indonesia</span>
+                                <span class="text-sm text-gray-600">Native</span>
+                            </div>
+                            <div class="w-full bg-gray-300 rounded-full h-2.5">
+                                <div class="bg-[#5588A3] h-2.5 rounded-full" style="width: 100%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="font-medium">Jawa</span>
+                                <span class="text-sm text-gray-600">Native</span>
+                            </div>
+                            <div class="w-full bg-gray-300 rounded-full h-2.5">
+                                <div class="bg-[#5588A3] h-2.5 rounded-full" style="width: 100%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="font-medium">Inggris</span>
+                                <span class="text-sm text-gray-600">Intermediate</span>
+                            </div>
+                            <div class="w-full bg-gray-300 rounded-full h-2.5">
+                                <div class="bg-[#5588A3] h-2.5 rounded-full" style="width: 60%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="favorites">
+            <h2 class="text-3xl font-bold text-light mb-8 text-center">My Favorites</h2>
+            
+            <div class="mb-12">
+                <h3 class="text-xl text-light mb-6 flex items-center gap-2">
+                    <i data-lucide="star" class="text-yellow-400"></i> Public Figures
+                </h3>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                    <div class="card-bg rounded-2xl overflow-hidden shadow-lg hover:-translate-y-2 transition duration-300">
+                        <div class="h-48 overflow-hidden bg-gray-300">
+                            <img src="https://img2.beritasatu.com/cache/beritasatu/480x310-3/2024/08/1724239123-1080x755.webp" alt="Keshi" class="w-full h-full object-cover" />
+                        </div>
+                        <div class="p-4 text-center">
+                            <h4 class="font-bold">Keshi</h4>
+                            <p class="text-sm text-gray-600">Musician</p>
+                        </div>
+                    </div>
+                    <div class="card-bg rounded-2xl overflow-hidden shadow-lg hover:-translate-y-2 transition duration-300">
+                        <div class="h-48 overflow-hidden bg-gray-300">
+                            <img src="https://yt3.googleusercontent.com/LHah25zePmlDyi3FeQLbvwXvuEqzOIjUCq1dcyaR5r3wbw6ukE6cHJLCxuIyg8BlUiaDUtdvZw=s900-c-k-c0x00ffffff-no-rj" alt="Sebastian Tedy" class="w-full h-full object-cover" />
+                        </div>
+                        <div class="p-4 text-center">
+                            <h4 class="font-bold">Sebastian Tedy</h4>
+                            <p class="text-sm text-gray-600">Content Creator</p>
+                        </div>
+                    </div>
+                    <div class="card-bg rounded-2xl overflow-hidden shadow-lg hover:-translate-y-2 transition duration-300">
+                        <div class="h-48 overflow-hidden bg-gray-300">
+                            <img src="https://theaseanmagazine.asean.org/files/media/2024/05/issue37-40-1.jpg" alt="Ade Rai" class="w-full h-full object-cover" />
+                        </div>
+                        <div class="p-4 text-center">
+                            <h4 class="font-bold">Ade Rai</h4>
+                            <p class="text-sm text-gray-600">Bodybuilder</p>
+                        </div>
+                    </div>
+                    <div class="card-bg rounded-2xl overflow-hidden shadow-lg hover:-translate-y-2 transition duration-300">
+                        <div class="h-48 overflow-hidden bg-gray-300">
+                            <img src="https://img.olenka.id/articles/archive-20250513/tirta-mandira-hudhi-104236.jpg" alt="Dr. Tirta" class="w-full h-full object-cover" />
+                        </div>
+                        <div class="p-4 text-center">
+                            <h4 class="font-bold">Dr. Tirta</h4>
+                            <p class="text-sm text-gray-600">Influencer/Doctor</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h3 class="text-xl text-light mb-6 flex items-center gap-2">
+                    <i data-lucide="play-circle" class="text-red-400"></i> Watchlist
+                </h3>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                    <div class="relative group overflow-hidden rounded-2xl shadow-lg card-bg">
+                        <div class="aspect-[2/3] overflow-hidden">
+                            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBUNaNZ0r7wVnqqKgD50FGwZgHKpgUKUKj5YmiBWeb-dyMfuBKKtxmrjoxs-pATbS0bVKUWZAys6DtarOveBgoetVIvwLHDP36btBbXubvJs30pQpH0mBISlL_YQpg7S7KZlA3u6qql4VcaRUs-wYiLFIOGrqZUkGmWLFuLUVCxI26ao6t3POeohBvVMI/s1000/sinopsis-detective-conan.jpg" alt="Detective Conan" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" />
+                        </div>
+                        <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black to-transparent p-4 pt-10">
+                            <h4 class="font-bold text-white">Detective Conan</h4>
+                            <p class="text-xs text-gray-300">Anime</p>
+                        </div>
+                    </div>
+                    <div class="relative group overflow-hidden rounded-2xl shadow-lg card-bg">
+                        <div class="aspect-[2/3] overflow-hidden">
+                            <img src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p18769662_b_v13_aa.jpg" alt="Queen's Gambit" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" />
+                        </div>
+                        <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black to-transparent p-4 pt-10">
+                            <h4 class="font-bold text-white">Queen's Gambit</h4>
+                            <p class="text-xs text-gray-300">Series</p>
+                        </div>
+                    </div>
+                    <div class="relative group overflow-hidden rounded-2xl shadow-lg card-bg">
+                        <div class="aspect-[2/3] overflow-hidden">
+                            <img src="https://resizing.flixster.com/6yno1V6oi8gwhPQQ99rQlwYQZP4=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvUlRUVjI1Mzk5NS53ZWJw" alt="Anne with an E" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" />
+                        </div>
+                        <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black to-transparent p-4 pt-10">
+                            <h4 class="font-bold text-white">Anne with an E</h4>
+                            <p class="text-xs text-gray-300">Series</p>
+                        </div>
+                    </div>
+                    <div class="relative group overflow-hidden rounded-2xl shadow-lg card-bg">
+                        <div class="aspect-[2/3] overflow-hidden">
+                            <img src="https://static.wikia.nocookie.net/thegooddoctor/images/e/ec/The_Good_Doctor_Saison_5.jpg/revision/latest?cb=20220823125207&path-prefix=fr" alt="The Good Doctor" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" />
+                        </div>
+                        <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black to-transparent p-4 pt-10">
+                            <h4 class="font-bold text-white">The Good Doctor</h4>
+                            <p class="text-xs text-gray-300">Series</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="max-w-2xl mx-auto card-bg rounded-3xl p-8 text-center shadow-xl mb-12">
+            <h2 class="text-3xl font-bold mb-6">Let's Connect</h2>
+            <div class="flex flex-col md:flex-row justify-center gap-6">
+                <a href="https://wa.me/62895707722888" target="_blank" rel="noreferrer" class="flex items-center justify-center gap-3 bg-[#25D366] text-white px-8 py-4 rounded-full font-bold hover:bg-green-600 transition shadow-md">
+                    <i data-lucide="phone" width="20"></i>
+                    WhatsApp
+                </a>
+                <a href="https://instagram.com/rybalabala" target="_blank" rel="noreferrer" class="flex items-center justify-center gap-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white px-8 py-4 rounded-full font-bold hover:opacity-90 transition shadow-md">
+                    <i data-lucide="instagram" width="20"></i>
+                    @rybalabala
+                </a>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="text-center py-8 text-light opacity-60 text-sm">
+        <p>© <span id="year"></span> Shaffa Tsurraya Sugiharto. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // 1. Inisialisasi Icons (Lucide)
+        lucide.createIcons();
+
+        // 2. Set Tahun di Footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // 3. Logic Upload Foto DIHAPUS karena sekarang menggunakan <img> statis
+    </script>
+</body>
+</html>
